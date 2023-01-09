@@ -27,25 +27,27 @@ router.get("/Students", async(req,res) =>{
 })
 
 // GET by ID 
-
-// app.get("/Students/:id", async(req, res) =>{
-//     try{
-//         const _id =  req.params.id;
-//         const studentData =  await Student.findById(_id);
+/*
+app.get("/Students/:id", async(req, res) =>{
+    try{
+        const _id =  req.params.id;
+        const studentData =  await Student.findById(_id);
         
-//         console.log(studentData);
+        console.log(studentData);
 
-//         if(!studentData){
-//             return res.status(404).send();
-//         }else{
-//             res.send(studentData);
-//         }
-//     }catch(e){
-//         res.status(500).send(e);
-//     }
-// })
+        if(!studentData){
+            return res.status(404).send();
+        }else{
+            res.send(studentData);
+        }
+    }catch(e){
+        res.status(500).send(e);
+    }
+})
+*/
 
-// GET by Name 
+// GET Student by Name 
+
 router.get("/Students/:name", async(req, res) =>{
     try{
         const name =  req.params.name;
@@ -65,6 +67,7 @@ router.get("/Students/:name", async(req, res) =>{
 })
 
 // Update student by ID  using PATCH (patch just modify the wrong data whereas PUT modify completely)
+
 router.patch("/Students/:id", async(req, res) =>{
     try{
         const _id =  req.params.id;
