@@ -1,17 +1,17 @@
 ﻿# REST-API-NodeJS
 
 
-> Required  Dependencies: express, mongoose, validator
+> Required  Dependencies: <b> express, mongoose, validator<b>
 
-npm i express
-npm i mongoose
-npm i validator
+- npm i express
+- npm i mongoose
+- npm i validator
 
 ## To run
 
->  npm run start
-or
->  npm run dev
-or
->  node app.js
+- >  npm run start
+
+- >  npm run dev
+
+- >  node app.js
 
