@@ -1,5 +1,6 @@
 ﻿# REST-API-NodeJS
-# Resr API NodeJs
+ 
+# REST API NodeJs
 Firstly, Clone this repo using the command
 ```
 $ git clone https://github.com/Vinishbhaskar/REST-API-NodeJS.git
