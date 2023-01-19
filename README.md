@@ -1,8 +1,8 @@
 ﻿# REST-API-NodeJS
-# Email-Sender-Bot
+# Resr API NodeJs
 Firstly, Clone this repo using the command
 ```
-$ git clone https://github.com/Vinishbhaskar/Python-Email-Sender.git
+$ git clone https://github.com/Vinishbhaskar/REST-API-NodeJS.git
 ```
 
 > Required  Dependencies:
