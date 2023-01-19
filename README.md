@@ -1,5 +1,5 @@
 ﻿# REST API NodeJS
-A RESTful API built using Node.js, Express.js, and MongoDB. This API allows for the creation, retrieval, updating, and deletion of data in a MongoDB database. It serves as the backend for a web application, and uses JSON web tokens for authentication and authorization.
+A RESTful API built using Node.js, Express.js, and MongoDB. This API allows for the creation, retrieval, updating, and deletion of data in a MongoDB database. It serves as the backend for a web application.
 
 ### Features
 - CRUD (Create, Read, Update, Delete) functionality for data in MongoDB
